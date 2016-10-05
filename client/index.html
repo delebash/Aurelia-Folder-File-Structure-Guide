@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Electron ES6 Aurelia PouchDB Syncfusion!</title>
+
+        <link href="jspm_packages/npm/font-awesome@4.6.3/css/font-awesome.css" rel="stylesheet" />
+        <link href="static/css/styles.css" rel="stylesheet"/>
+        <script src="jspm_packages/npm/jquery@3.1.1/dist/jquery.js"></script>
+
+    </head>
+    <body aurelia-app="main">
+        <div>
+            <div class="splash">
+                <div class="message">Hello! There.  App -- Electron ES6 Aurelia PouchDB Syncfusion is running</div>
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+        </div>
+
+        <!-- this is the module loader that Aurelia uses -->
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+        <script>
+            System.import("aurelia-bootstrapper");
+        </script>
+    </body>
+</html>
